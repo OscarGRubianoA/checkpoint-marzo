@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 20vh;
+    padding: 1rem;
+}
+header img{
+    width: 7rem;
+    height: 7.8rem;
+}
+header h1{
+    color: white;
+    font-size: 3rem;
+}
+header a{
+    background-color: white;
+    color: orange;
+    padding: 1rem;
+    text-decoration: none;
+}
+.active{
+    background-color: green;
+    color: white;
+}
+main{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem;
+    min-height:  50vh,
+
+} 
+main h2{
+color: orange;
+text-shadow: 1px 1px 1px black;
+}
+main div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+section {
+    
+    width: 38rem;
+    background-color:red;
+    display: flex;
+    justify-content: space-between;
+    
+}
+section div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:space-around;
+    padding: 0 4rem 0 4rem; 
+}
+section img{
+    height: 11.3rem;
+    width: 16rem;
+}
+section h3{
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+}
+li{
+    list-style: inside;
+}
+footer{
+    min-height: .9vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
